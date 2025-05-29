@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-link{
+  margin-left: 25px;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+}
+
+.footer-link:hover{
+  color:rgba(56,126,209,1);
+}
+
+.table-styling {
+  font-size: 14px !important;
+  opacity: 0.7;
+  margin-top: 10rem;
+}
+
+.support{
+  background-color: rgba(56,126,209,1);
+  color: white;
+}
+
+.support input{
+  padding: 20px 50px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+.support a{
+  color: white;
+  padding: 1.2rem;
+  
+}
+
+.ticket-link a{
+  color: rgba(56,126,209,1);
+}
+
+.ticket-link a:hover{
+  color: grey;
+}
+
+.ticket-link h5{
+  color: black;
+  opacity: 0.8;
+}
